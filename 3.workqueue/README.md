@@ -17,6 +17,6 @@
 <br>
 
 3.사진 :
-![1.system_wq](1.syswq 실행결과.png)
-![2.alloc_wq](2.allocwq 실행결과.png)
-![3.delayed_wq](3.delaywq 실행결과.png)
+![1.system_wq](image/syswq 실행결과.png)
+![2.alloc_wq](image/allocwq 실행결과.png)
+![3.delayed_wq](image/delaywq 실행결과.png)
