@@ -1,0 +1,3 @@
+syswq.o
+allocwq.o
+delaywq.o
