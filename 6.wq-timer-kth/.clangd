@@ -1,0 +1,18 @@
+CompileFlags:
+  Add:
+    # 커널 헤더 include 경로 (x86_64 기준)
+    - -I/home/waveslike/vm/linux-6.17.9/include
+    - -I/home/waveslike/vm/linux-6.17.9/arch/x86/include
+    - -I/home/waveslike/vm/linux-6.17.9/arch/x86/include/generated
+    - -I/home/waveslike/vm/linux-6.17.9/include/uapi
+    - -I/home/waveslike/vm/linux-6.17.9/include/generated/uapi
+    - -I/home/waveslike/vm/linux-6.17.9/arch/x86/include/uapi
+    - -I/home/waveslike/vm/linux-6.17.9/arch/x86/include/generated/uapi
+
+    # 커널 빌드용 매크로
+    - -D__KERNEL__
+    - -DMODULE
+
+    # C 표준 (원하시면 조정)
+    - -std=gnu11
+
